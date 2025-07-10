@@ -3,7 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, RotateCcw } from 'lucide-react';
 import QuizQuestion from '../components/QuizQuestion';
 import QuizResult from '../components/QuizResult';
-import { calculateTopCharacters, getCharactersByIds, Character, QuizScores } from '../utils/quizUtils';
+import SEOHead from '../components/SEOHead';
+import {
+  calculateTopCharacters,
+  getCharactersByIds,
+  Character,
+  QuizScores
+} from '../utils/quizUtils';
 
 interface QuizQuestionData {
   id: number;
@@ -56,12 +62,14 @@ const CharacterQuiz: React.FC = () => {
 
     const currentQuestion = questions[currentQuestionIndex];
     const selectedOptionData = currentQuestion.options[selectedOption];
-    
+
     // Update scores
     const newScores = { ...scores };
-    Object.entries(selectedOptionData.scores).forEach(([characterId, points]) => {
-      newScores[characterId] = (newScores[characterId] || 0) + points;
-    });
+    Object.entries(selectedOptionData.scores).forEach(
+      ([characterId, points]) => {
+        newScores[characterId] = (newScores[characterId] || 0) + points;
+      }
+    );
     setScores(newScores);
 
     // Move to next question or complete quiz
@@ -87,68 +95,82 @@ const CharacterQuiz: React.FC = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-900 dark:to-purple-900 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
-          <p className="text-gray-600 dark:text-gray-300">Loading quiz...</p>
+      <div className='min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-900 dark:to-purple-900 flex items-center justify-center'>
+        <div className='text-center'>
+          <div className='animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4'></div>
+          <p className='text-gray-600 dark:text-gray-300'>Loading quiz...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-900 dark:to-purple-900 py-8 px-4">
-      <div className="max-w-4xl mx-auto">
-        <AnimatePresence mode="wait">
-          {!isCompleted ? (
-            <motion.div key="quiz" className="space-y-8">
-              <div className="text-center">
-                <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                  Malazan Character Quiz
-                </h1>
-                <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                  Discover which character from the Malazan Book of the Fallen series matches your personality
-                </p>
-              </div>
+    <>
+      <SEOHead
+        title='Malazan Character Quiz - Which Book of the Fallen Character Are You?'
+        description="Take our interactive personality quiz to discover which Malazan character from Steven Erikson's Book of the Fallen series matches your personality. Are you more like Anomander Rake, Karsa Orlong, or Ganoes Paran?"
+        keywords='Malazan character quiz, Book of the Fallen personality test, Steven Erikson characters, fantasy personality quiz, Anomander Rake, Karsa Orlong, Ganoes Paran'
+        url='https://malazan.netlify.app/quiz'
+      />
+      <div className='min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-900 dark:to-purple-900 py-8 px-4'>
+        <div className='max-w-4xl mx-auto'>
+          <AnimatePresence mode='wait'>
+            {!isCompleted ? (
+              <motion.div key='quiz' className='space-y-8'>
+                <div className='text-center'>
+                  <h1 className='text-4xl font-bold text-gray-900 dark:text-white mb-4'>
+                    Malazan Character Quiz
+                  </h1>
+                  <p className='text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto'>
+                    Discover which character from the Malazan Book of the Fallen
+                    series matches your personality
+                  </p>
+                </div>
 
-              {questions.length > 0 && (
-                <QuizQuestion
-                  question={questions[currentQuestionIndex].question}
-                  options={questions[currentQuestionIndex].options}
-                  selectedOption={selectedOption}
-                  onSelectOption={handleSelectOption}
-                  questionNumber={currentQuestionIndex + 1}
-                  totalQuestions={questions.length}
+                {questions.length > 0 && (
+                  <QuizQuestion
+                    question={questions[currentQuestionIndex].question}
+                    options={questions[currentQuestionIndex].options}
+                    selectedOption={selectedOption}
+                    onSelectOption={handleSelectOption}
+                    questionNumber={currentQuestionIndex + 1}
+                    totalQuestions={questions.length}
+                  />
+                )}
+
+                <div className='text-center'>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={handleNextQuestion}
+                    disabled={selectedOption === null}
+                    className={`px-8 py-3 rounded-lg font-medium transition-all duration-200 flex items-center mx-auto space-x-2 ${
+                      selectedOption !== null
+                        ? 'bg-purple-600 hover:bg-purple-700 text-white shadow-lg'
+                        : 'bg-gray-300 dark:bg-gray-700 text-gray-500 cursor-not-allowed'
+                    }`}
+                  >
+                    <span>
+                      {currentQuestionIndex < questions.length - 1
+                        ? 'Next Question'
+                        : 'Get Results'}
+                    </span>
+                    <ArrowRight className='h-5 w-5' />
+                  </motion.button>
+                </div>
+              </motion.div>
+            ) : (
+              <motion.div key='result'>
+                <QuizResult
+                  characters={resultCharacters}
+                  onRestartQuiz={restartQuiz}
                 />
-              )}
-
-              <div className="text-center">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={handleNextQuestion}
-                  disabled={selectedOption === null}
-                  className={`px-8 py-3 rounded-lg font-medium transition-all duration-200 flex items-center mx-auto space-x-2 ${
-                    selectedOption !== null
-                      ? 'bg-purple-600 hover:bg-purple-700 text-white shadow-lg'
-                      : 'bg-gray-300 dark:bg-gray-700 text-gray-500 cursor-not-allowed'
-                  }`}
-                >
-                  <span>
-                    {currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'Get Results'}
-                  </span>
-                  <ArrowRight className="h-5 w-5" />
-                </motion.button>
-              </div>
-            </motion.div>
-          ) : (
-            <motion.div key="result">
-              <QuizResult characters={resultCharacters} onRestartQuiz={restartQuiz} />
-            </motion.div>
-          )}
-        </AnimatePresence>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

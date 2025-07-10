@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://malazan.netlify.app/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Disallow any admin or private paths (none currently)
+# Disallow: /admin/ 
