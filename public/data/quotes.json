@@ -1,0 +1,112 @@
+[
+  {
+    "id": "quote03",
+    "quote": "I am not a man. I am a god dreaming I am a man.",
+    "options": [
+      { "text": "Karsa Orlong", "score": 1 },
+      { "text": "Shadowthrone", "score": 0 },
+      { "text": "Anomander Rake", "score": 0 },
+      { "text": "Trull Sengar", "score": 0 }
+    ],
+    "answerId": "karsaOrlong"
+  },
+  {
+    "id": "quote07",
+    "quote": "Life is sacred. Life is also deadly. It is both, always.",
+    "options": [
+      { "text": "Itkovian", "score": 0 },
+      { "text": "Karsa Orlong", "score": 0 },
+      { "text": "Trull Sengar", "score": 1 },
+      { "text": "Coltaine", "score": 0 }
+    ],
+    "answerId": "trullSengar"
+  },
+  {
+    "id": "quote12",
+    "quote": "Some wars are fought merely to stop them from happening.",
+    "options": [
+      { "text": "Brys Beddict", "score": 1 },
+      { "text": "Ganoes Paran", "score": 0 },
+      { "text": "Mallick Rel", "score": 0 },
+      { "text": "Quick Ben", "score": 0 }
+    ],
+    "answerId": "brysBeddict"
+  },
+  {
+    "id": "quote19",
+    "quote": "The price of power is more than you pay with coin.",
+    "options": [
+      { "text": "Shadowthrone", "score": 1 },
+      { "text": "Cotillion", "score": 0 },
+      { "text": "Poliel", "score": 0 },
+      { "text": "Hood", "score": 0 }
+    ],
+    "answerId": "shadowthrone"
+  },
+  {
+    "id": "quote23",
+    "quote": "The scar is pain and memory, and both come to define the man.",
+    "options": [
+      { "text": "Kalam Mekhar", "score": 1 },
+      { "text": "Fiddler", "score": 0 },
+      { "text": "Whiskeyjack", "score": 0 },
+      { "text": "Stormy", "score": 0 }
+    ],
+    "answerId": "kalamMekhar"
+  },
+  {
+    "id": "quote28",
+    "quote": "All journeys demand a toll. Some paid in flesh, some in soul.",
+    "options": [
+      { "text": "Ganoes Paran", "score": 1 },
+      { "text": "Trull Sengar", "score": 0 },
+      { "text": "Anomander Rake", "score": 0 },
+      { "text": "Tavore Paran", "score": 0 }
+    ],
+    "answerId": "ganoesParan"
+  },
+  {
+    "id": "quote32",
+    "quote": "I carry the weight of a world in my eyes.",
+    "options": [
+      { "text": "Anomander Rake", "score": 1 },
+      { "text": "Icarium", "score": 0 },
+      { "text": "Silchas Ruin", "score": 0 },
+      { "text": "Shadowthrone", "score": 0 }
+    ],
+    "answerId": "anomanderRake"
+  },
+  {
+    "id": "quote38",
+    "quote": "Trust is forged in battle and tested in blood.",
+    "options": [
+      { "text": "Kalam Mekhar", "score": 0 },
+      { "text": "Fiddler", "score": 1 },
+      { "text": "Whiskeyjack", "score": 0 },
+      { "text": "Stormy", "score": 0 }
+    ],
+    "answerId": "fiddler"
+  },
+  {
+    "id": "quote43",
+    "quote": "Madness isn't what breaks you. It's what comes after.",
+    "options": [
+      { "text": "Icarium", "score": 1 },
+      { "text": "The Crippled God", "score": 0 },
+      { "text": "Gothos", "score": 0 },
+      { "text": "Kruppe", "score": 0 }
+    ],
+    "answerId": "icarium"
+  },
+  {
+    "id": "quote49",
+    "quote": "No one chooses the day they die. But we choose how we live until that day.",
+    "options": [
+      { "text": "Itkovian", "score": 1 },
+      { "text": "Whiskeyjack", "score": 0 },
+      { "text": "Kruppe", "score": 0 },
+      { "text": "Brys Beddict", "score": 0 }
+    ],
+    "answerId": "itkovian"
+  }
+]

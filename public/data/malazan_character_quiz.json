@@ -1,0 +1,350 @@
+[
+  {
+    "question": "How do you approach leadership?",
+    "options": [
+      {
+        "text": "Lead from the front, no matter the cost.",
+        "scores": {
+          "whiskeyjack": 2,
+          "tavoreParan": 1,
+          "stormy": 1
+        }
+      },
+      {
+        "text": "Command from the shadows, manipulating outcomes.",
+        "scores": {
+          "shadowthrone": 2,
+          "teholBeddict": 1,
+          "cotillion": 1
+        }
+      },
+      {
+        "text": "Avoid leadership, prefer to observe or advise.",
+        "scores": {
+          "kruppe": 1,
+          "serenPedac": 1,
+          "bottle": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "What drives your actions?",
+    "options": [
+      {
+        "text": "Honor and loyalty to my people.",
+        "scores": {
+          "anomanderRake": 2,
+          "fearSengar": 1,
+          "onosToolan": 1
+        }
+      },
+      {
+        "text": "Personal freedom and breaking chains.",
+        "scores": {
+          "karsaOrlong": 2,
+          "icarium": 1,
+          "sinn": 1
+        }
+      },
+      {
+        "text": "A mission few can understand.",
+        "scores": {
+          "quickBen": 2,
+          "ganoesParan": 1,
+          "poliel": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "What kind of weapon do you wield?",
+    "options": [
+      {
+        "text": "A sword, forged in ancient grief.",
+        "scores": {
+          "anomanderRake": 2,
+          "trullSengar": 1,
+          "silchasRuin": 1
+        }
+      },
+      {
+        "text": "Explosives or the element of surprise.",
+        "scores": {
+          "fiddler": 2,
+          "hedge": 1,
+          "bottle": 1
+        }
+      },
+      {
+        "text": "My mind and my wit.",
+        "scores": {
+          "kruppe": 2,
+          "teholBeddict": 1,
+          "bugg": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "How do others perceive you?",
+    "options": [
+      {
+        "text": "Cold and distant, but dependable.",
+        "scores": {
+          "tavoreParan": 2,
+          "cotillion": 1,
+          "mallet": 1
+        }
+      },
+      {
+        "text": "Unpredictable and strange, maybe insane.",
+        "scores": {
+          "sinn": 2,
+          "kruppe": 1,
+          "icarium": 1
+        }
+      },
+      {
+        "text": "A leader with a hidden plan.",
+        "scores": {
+          "ganoesParan": 2,
+          "shadowthrone": 1,
+          "kallor": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "What do you fear?",
+    "options": [
+      {
+        "text": "Losing control of myself.",
+        "scores": {
+          "icarium": 2,
+          "sinn": 1,
+          "ryllandaras": 1
+        }
+      },
+      {
+        "text": "Failing the people who trust me.",
+        "scores": {
+          "whiskeyjack": 2,
+          "ganoesParan": 1,
+          "onosToolan": 1
+        }
+      },
+      {
+        "text": "That all my plans are meaningless.",
+        "scores": {
+          "shadowthrone": 2,
+          "teholBeddict": 1,
+          "cotillion": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "How do you handle trauma?",
+    "options": [
+      {
+        "text": "Bury it deep and keep marching.",
+        "scores": {
+          "tavoreParan": 2,
+          "fiddler": 1,
+          "mallet": 1
+        }
+      },
+      {
+        "text": "Let it shape me into something terrifying.",
+        "scores": {
+          "sinn": 2,
+          "icarium": 1,
+          "kallor": 1
+        }
+      },
+      {
+        "text": "Talk around it with charm and riddles.",
+        "scores": {
+          "kruppe": 2,
+          "teholBeddict": 1,
+          "serenPedac": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "What's your relationship with the divine?",
+    "options": [
+      {
+        "text": "I am one — and I wield it with purpose.",
+        "scores": {
+          "hood": 2,
+          "bugg": 1,
+          "shadowthrone": 1
+        }
+      },
+      {
+        "text": "They’re dangerous, and I avoid or outwit them.",
+        "scores": {
+          "quickBen": 2,
+          "kalamMekhar": 1,
+          "bottle": 1
+        }
+      },
+      {
+        "text": "I reject them entirely.",
+        "scores": {
+          "karsaOrlong": 2,
+          "mappoRunt": 1,
+          "ryllandaras": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "Pick your battlefield.",
+    "options": [
+      {
+        "text": "A chaotic frontline with smoke and blood.",
+        "scores": {
+          "stormy": 2,
+          "gesler": 1,
+          "hedge": 1
+        }
+      },
+      {
+        "text": "The quiet backroom where deals are struck.",
+        "scores": {
+          "teholBeddict": 2,
+          "shadowthrone": 1,
+          "bugg": 1
+        }
+      },
+      {
+        "text": "The ruins of ancient memory and magic.",
+        "scores": {
+          "anomanderRake": 2,
+          "onosToolan": 1,
+          "silchasRuin": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "Which best describes your sense of justice?",
+    "options": [
+      {
+        "text": "Strict and unrelenting — all must pay.",
+        "scores": {
+          "hood": 2,
+          "poliel": 1,
+          "kallor": 1
+        }
+      },
+      {
+        "text": "Flexible — people are complicated.",
+        "scores": {
+          "ganoesParan": 2,
+          "trullSengar": 1,
+          "udinaas": 1
+        }
+      },
+      {
+        "text": "Irrelevant — I follow my own code.",
+        "scores": {
+          "icarium": 2,
+          "karsaOrlong": 1,
+          "ryllandaras": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "Who are your closest allies?",
+    "options": [
+      {
+        "text": "Old soldiers who’ve seen it all.",
+        "scores": {
+          "whiskeyjack": 2,
+          "gesler": 1,
+          "mallet": 1
+        }
+      },
+      {
+        "text": "Tricksters and geniuses.",
+        "scores": {
+          "kruppe": 2,
+          "teholBeddict": 1,
+          "bugg": 1
+        }
+      },
+      {
+        "text": "Outcasts and orphans.",
+        "scores": {
+          "icarium": 1,
+          "mappoRunt": 1,
+          "sinn": 2
+        }
+      }
+    ]
+  },
+  {
+    "question": "What role do you play in a group?",
+    "options": [
+      {
+        "text": "The quiet protector — I watch everyone’s back.",
+        "scores": {
+          "mappoRunt": 2,
+          "kalamMekhar": 1,
+          "onosToolan": 1
+        }
+      },
+      {
+        "text": "The wild card — unpredictable but essential.",
+        "scores": {
+          "sinn": 2,
+          "kruppe": 1,
+          "hedge": 1
+        }
+      },
+      {
+        "text": "The strategist — always three steps ahead.",
+        "scores": {
+          "teholBeddict": 2,
+          "quickBen": 1,
+          "shadowthrone": 1
+        }
+      }
+    ]
+  },
+  {
+    "question": "How do you respond to betrayal?",
+    "options": [
+      {
+        "text": "I let my sword answer for me.",
+        "scores": {
+          "karsaOrlong": 2,
+          "fearSengar": 1,
+          "stormy": 1
+        }
+      },
+      {
+        "text": "I maneuver in silence, plotting revenge.",
+        "scores": {
+          "cotillion": 2,
+          "kallor": 1,
+          "poliel": 1
+        }
+      },
+      {
+        "text": "I try to understand the reasons behind it.",
+        "scores": {
+          "trullSengar": 2,
+          "udinaas": 1,
+          "serenPedac": 1
+        }
+      }
+    ]
+  }
+]

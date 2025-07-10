@@ -1,0 +1,612 @@
+[
+  {
+    "_id": "anomanderRake",
+    "name": "Anomander Rake",
+    "traits": ["noble", "strategist", "shadow magic"],
+    "warren": "Kurald Galain",
+    "powerLevel": 95,
+    "agility": 80,
+    "intelligence": 90,
+    "description": "Son of Darkness, wielder of Dragnipur, lord of Moon's Spawn and reluctant god-slayer."
+  },
+  {
+    "_id": "icarium",
+    "name": "Icarium",
+    "traits": ["rage", "temporal magic", "Jaghut heritage"],
+    "warren": "Unknown",
+    "powerLevel": 98,
+    "agility": 75,
+    "intelligence": 85,
+    "description": "A half-Jaghut wanderer with immense destructive potential and a lost past he cannot remember."
+  },
+  {
+    "_id": "karsaOrlong",
+    "name": "Karsa Orlong",
+    "traits": ["brutal", "unyielding", "Teblor warrior"],
+    "warren": "None",
+    "powerLevel": 92,
+    "agility": 85,
+    "intelligence": 70,
+    "description": "A Toblakai warrior with unparalleled strength and a destiny that shapes empires and gods alike."
+  },
+  {
+    "_id": "quickBen",
+    "name": "Quick Ben",
+    "traits": ["multi-warren", "tactical", "elusive"],
+    "warren": "Multiple (11+)",
+    "powerLevel": 89,
+    "agility": 75,
+    "intelligence": 96,
+    "description": "Bridgeburner mage and master schemer, hiding more secrets and warrens than anyone knows."
+  },
+  {
+    "_id": "tayschrenn",
+    "name": "Tayschrenn",
+    "traits": ["elemental", "precision", "loyal"],
+    "warren": "Thyr, Telas, D’riss",
+    "powerLevel": 91,
+    "agility": 70,
+    "intelligence": 88,
+    "description": "Imperial High Mage, master of multiple warrens, known for his explosive and controlled sorcery."
+  },
+  {
+    "_id": "shadowthrone",
+    "name": "Shadowthrone",
+    "traits": ["schemer", "deceptive", "shadow"],
+    "warren": "Meanas (Shadow)",
+    "powerLevel": 82,
+    "agility": 65,
+    "intelligence": 95,
+    "description": "The god of Shadow and former Emperor Kellanved, mastermind behind many divine manipulations."
+  },
+  {
+    "_id": "cotillion",
+    "name": "Cotillion",
+    "traits": ["assassin", "loyal", "silent killer"],
+    "warren": "Meanas",
+    "powerLevel": 87,
+    "agility": 92,
+    "intelligence": 85,
+    "description": "Patron of assassins, the Rope, formerly Dancer, silent hand behind Shadowthrone’s plans."
+  },
+  {
+    "_id": "fiddler",
+    "name": "Fiddler",
+    "traits": ["sapper", "musician", "veteran"],
+    "warren": "None",
+    "powerLevel": 65,
+    "agility": 70,
+    "intelligence": 82,
+    "description": "Bridgeburner sapper turned sergeant of the Bonehunters, known for his luck and loyalty."
+  },
+  {
+    "_id": "tavoreParan",
+    "name": "Tavore Paran",
+    "traits": ["cold", "strategic", "unyielding"],
+    "warren": "None",
+    "powerLevel": 72,
+    "agility": 65,
+    "intelligence": 92,
+    "description": "Adjunct of the Malazan Empire, enigmatic leader of the Bonehunters with unwavering discipline."
+  },
+  {
+    "_id": "felisinParan",
+    "name": "Felisin Paran",
+    "traits": ["vengeful", "chaotic", "reborn"],
+    "warren": "Raraku",
+    "powerLevel": 78,
+    "agility": 60,
+    "intelligence": 80,
+    "description": "Youngest Paran sibling who becomes the reborn Sha’ik and figurehead of the Whirlwind Rebellion."
+  },
+  {
+    "_id": "hebcoricGhostHands",
+    "name": "Heboric Ghost Hands",
+    "traits": ["seer", "truth-bearer", "atheist priest"],
+    "warren": "Burn (channelled)",
+    "powerLevel": 66,
+    "agility": 45,
+    "intelligence": 87,
+    "description": "Former priest of Fener turned reluctant prophet and wielder of divine, decaying power."
+  },
+  {
+    "_id": "tool",
+    "name": "Onos T’oolan",
+    "traits": ["undead", "stoic", "warrior sage"],
+    "warren": "Tellann",
+    "powerLevel": 88,
+    "agility": 60,
+    "intelligence": 84,
+    "description": "First Sword of the Imass, bound to eternal war but seeking peace through honor."
+  },
+  {
+    "_id": "trullSengar",
+    "name": "Trull Sengar",
+    "traits": ["loyal", "conflicted", "Tiste Edur"],
+    "warren": "Kurald Emurlahn",
+    "powerLevel": 80,
+    "agility": 72,
+    "intelligence": 78,
+    "description": "Exiled Edur warrior with a poetic soul and tragic fate."
+  },
+  {
+    "_id": "teholBeddict",
+    "name": "Tehol Beddict",
+    "traits": ["economic genius", "eccentric", "schemer"],
+    "warren": "Unknown",
+    "powerLevel": 45,
+    "agility": 40,
+    "intelligence": 99,
+    "description": "Mad genius and Letherii economist who brought down an empire with accounting and wit."
+  },
+  {
+    "_id": "brysBeddict",
+    "name": "Brys Beddict",
+    "traits": ["duelist", "loyal", "precise"],
+    "warren": "None",
+    "powerLevel": 78,
+    "agility": 88,
+    "intelligence": 80,
+    "description": "The King's Champion of Lether, peerless swordsman and embodiment of discipline."
+  },
+  {
+    "_id": "dassemUltor",
+    "name": "Dassem Ultor",
+    "traits": ["swordmaster", "vengeful", "former First Sword"],
+    "warren": "None",
+    "powerLevel": 94,
+    "agility": 85,
+    "intelligence": 87,
+    "description": "Once the First Sword of the Empire, now hunted by gods and legends alike."
+  },
+  {
+    "_id": "ganoesParan",
+    "name": "Ganoes Paran",
+    "traits": ["witness", "commander", "Ascendant"],
+    "warren": "Hood's Path / Master of the Deck",
+    "powerLevel": 86,
+    "agility": 68,
+    "intelligence": 90,
+    "description": "From soldier to Master of the Deck, Paran walks the line between mortal and myth."
+  },
+  {
+    "_id": "crimsonGuardSkinner",
+    "name": "Skinner",
+    "traits": ["immortal", "ruthless", "betrayer"],
+    "warren": "Unknown",
+    "powerLevel": 90,
+    "agility": 70,
+    "intelligence": 75,
+    "description": "One of the Avowed, commander of the Crimson Guard, feared for his brutality and ambition."
+  },
+  {
+    "_id": "kalamMekhar",
+    "name": "Kalam Mekhar",
+    "traits": ["assassin", "loyal", "unstoppable"],
+    "warren": "Meanas",
+    "powerLevel": 83,
+    "agility": 95,
+    "intelligence": 78,
+    "description": "Deadliest assassin in the Empire, Bridgeburner, and unswerving blade of cause over crown."
+  },
+  {
+    "_id": "amnath",
+    "name": "Ammanas (Shadowthrone)",
+    "traits": ["chaotic", "schemer", "ascendant"],
+    "warren": "Shadow",
+    "powerLevel": 82,
+    "agility": 65,
+    "intelligence": 95,
+    "description": "Same entity as Shadowthrone — unpredictable and manipulative master of the Shadow Realm."
+  },
+  {
+    "_id": "rakeShadowDragon",
+    "name": "Rake (Draconus-form)",
+    "traits": ["draconian", "ascendant", "sorcery"],
+    "warren": "Kurald Galain",
+    "powerLevel": 97,
+    "agility": 78,
+    "intelligence": 88,
+    "description": "Lord of Moon’s Spawn in his true Soletaken Dragon form, devastation incarnate."
+  },
+  {
+    "_id": "draconus",
+    "name": "Draconus",
+    "traits": ["elder god", "creator", "sorrowful"],
+    "warren": "Starvald Demelain",
+    "powerLevel": 99,
+    "agility": 60,
+    "intelligence": 94,
+    "description": "Elder god who forged Dragnipur, father of Rake, and long-enslaved to his own creation."
+  },
+  {
+    "_id": "grub",
+    "name": "Grub",
+    "traits": ["seer", "child", "future ascendant"],
+    "warren": "Unknown",
+    "powerLevel": 70,
+    "agility": 65,
+    "intelligence": 92,
+    "description": "Once a child soldier, now whispered as the Shield Anvil of the future."
+  },
+  {
+    "_id": "stormy",
+    "name": "Stormy",
+    "traits": ["marine", "unyielding", "champion"],
+    "warren": "Blessing of War",
+    "powerLevel": 82,
+    "agility": 72,
+    "intelligence": 70,
+    "description": "Bridgeburner turned divine warrior, loyal beyond death and storm-forged in battle."
+  },
+  {
+    "_id": "gesler",
+    "name": "Gesler",
+    "traits": ["gruff", "devoted", "god-touched"],
+    "warren": "Blessing of War",
+    "powerLevel": 80,
+    "agility": 70,
+    "intelligence": 72,
+    "description": "Stormy's companion and fellow Ascendant, chosen by the Wolves of War."
+  },
+  {
+    "_id": "raith",
+    "name": "Raest",
+    "traits": ["Jaghut", "sorcery", "undead"],
+    "warren": "Omtose Phellack",
+    "powerLevel": 91,
+    "agility": 50,
+    "intelligence": 89,
+    "description": "An ancient Jaghut Tyrant, awakened with vengeance on his frozen heart."
+  },
+  {
+    "_id": "buke",
+    "name": "Buke",
+    "traits": ["guard", "loyal", "quiet"],
+    "warren": "None",
+    "powerLevel": 62,
+    "agility": 60,
+    "intelligence": 65,
+    "description": "A dependable soldier known more for steadiness than storm."
+  },
+  {
+    "_id": "corabb",
+    "name": "Corabb Bhilan Thenu’alas",
+    "traits": ["fervent", "delusional", "loyal"],
+    "warren": "None",
+    "powerLevel": 68,
+    "agility": 68,
+    "intelligence": 55,
+    "description": "Faith-driven soldier who followed Tavore to the end, blindly yet bravely."
+  },
+  {
+    "_id": "leoman",
+    "name": "Leoman of the Flails",
+    "traits": ["fanatic", "commander", "flail master"],
+    "warren": "None",
+    "powerLevel": 77,
+    "agility": 80,
+    "intelligence": 74,
+    "description": "Charismatic and deadly warrior, right hand of Sha'ik, enigmatic to the last."
+  },
+  {
+    "_id": "troll",
+    "name": "Troll",
+    "traits": ["builder", "loyal", "Tiste Edur"],
+    "warren": "Kurald Emurlahn",
+    "powerLevel": 75,
+    "agility": 68,
+    "intelligence": 78,
+    "description": "Brother of Rhulad, torn between family and honor."
+  },
+  {
+    "_id": "rhuladSengar",
+    "name": "Rhulad Sengar",
+    "traits": ["mad emperor", "resurrected", "traumatized"],
+    "warren": "Kurald Emurlahn",
+    "powerLevel": 85,
+    "agility": 70,
+    "intelligence": 50,
+    "description": "Chosen and cursed by the Crippled God, endlessly reborn and tragically broken."
+  },
+  {
+    "_id": "udinaas",
+    "name": "Udinaas",
+    "traits": ["slave", "thinker", "Azath-bound"],
+    "warren": "None",
+    "powerLevel": 66,
+    "agility": 60,
+    "intelligence": 90,
+    "description": "Letherii slave and poet, vessel for the soul of Scabandari Bloodeye."
+  },
+  {
+    "_id": "featherWitch",
+    "name": "Feather Witch",
+    "traits": ["vengeful", "seer", "manipulative"],
+    "warren": "Errant’s Blessing",
+    "powerLevel": 70,
+    "agility": 55,
+    "intelligence": 88,
+    "description": "A Letherii seer whose ambition and wrath shake the fates themselves."
+  },
+  {
+    "_id": "theErrant",
+    "name": "The Errant",
+    "traits": ["manipulator", "elder god", "schemer"],
+    "warren": "Unknown (Path of Chance)",
+    "powerLevel": 86,
+    "agility": 55,
+    "intelligence": 91,
+    "description": "Elder being meddling with fate, obsessed with balance and control."
+  },
+  {
+    "_id": "karosInvictad",
+    "name": "Karos Invictad",
+    "traits": ["corrupt", "coward", "politician"],
+    "warren": "None",
+    "powerLevel": 40,
+    "agility": 40,
+    "intelligence": 58,
+    "description": "Letherii security chief, embodiment of systemic rot and cowardice."
+  },
+  {
+    "_id": "serenPadac",
+    "name": "Seren Pedac",
+    "traits": ["truthseer", "scholar", "grieving"],
+    "warren": "Unknown",
+    "powerLevel": 65,
+    "agility": 58,
+    "intelligence": 85,
+    "description": "Truthseer and historian, caught between knowledge and duty."
+  },
+  {
+    "_id": "hannaMosag",
+    "name": "Hannan Mosag",
+    "traits": ["sorcerer", "ruler", "ambitious"],
+    "warren": "Kurald Emurlahn",
+    "powerLevel": 89,
+    "agility": 60,
+    "intelligence": 85,
+    "description": "Warlock King of the Edur, wielder of chaos and ambition."
+  },
+  {
+    "_id": "kilmandaros",
+    "name": "Kilmandaros",
+    "traits": ["elder god", "feral", "destroyer"],
+    "warren": "None",
+    "powerLevel": 97,
+    "agility": 68,
+    "intelligence": 62,
+    "description": "Elder goddess of destruction, raw power in motherly flesh."
+  },
+  {
+    "_id": "scabandariBloodeye",
+    "name": "Scabandari Bloodeye",
+    "traits": ["traitor", "founder", "elder power"],
+    "warren": "Kurald Emurlahn",
+    "powerLevel": 93,
+    "agility": 70,
+    "intelligence": 89,
+    "description": "Father of the Edur Empire, sealed by betrayal and shadow."
+  },
+  {
+    "_id": "temper",
+    "name": "Temper",
+    "traits": ["First Sword", "veteran", "scarred"],
+    "warren": "None",
+    "powerLevel": 84,
+    "agility": 72,
+    "intelligence": 76,
+    "description": "Veteran of countless wars and former shield to Dassem Ultor."
+  },
+  {
+    "_id": "ladyEnvy",
+    "name": "Lady Envy",
+    "traits": ["mysterious", "powerful", "arrogant"],
+    "warren": "Unknown (likely Starvald Demelain)",
+    "powerLevel": 92,
+    "agility": 70,
+    "intelligence": 90,
+    "description": "Daughter of Draconus, absurdly powerful and ever sardonic in battle."
+  },
+  {
+    "_id": "kruppe",
+    "name": "Kruppe",
+    "traits": ["clever", "verbose", "seer"],
+    "warren": "Meanas (partially)",
+    "powerLevel": 72,
+    "agility": 40,
+    "intelligence": 98,
+    "description": "Eel of Darujhistan, master manipulator, friend of mages and kings alike."
+  },
+  {
+    "_id": "baruk",
+    "name": "Baruk",
+    "traits": ["alchemist", "noble", "sorcerer"],
+    "warren": "Various (alchemy focus)",
+    "powerLevel": 78,
+    "agility": 45,
+    "intelligence": 88,
+    "description": "Alchemist and High Mage of Darujhistan, discreet but deadly."
+  },
+  {
+    "_id": "mappoRunt",
+    "name": "Mappo Runt",
+    "traits": ["loyal", "guardian", "Trell"],
+    "warren": "None",
+    "powerLevel": 86,
+    "agility": 65,
+    "intelligence": 80,
+    "description": "Bound protector of Icarium, tormented by duty and love."
+  },
+  {
+    "_id": "kallor",
+    "name": "Kallor",
+    "traits": ["cursed", "tyrant", "immortal"],
+    "warren": "None",
+    "powerLevel": 90,
+    "agility": 60,
+    "intelligence": 89,
+    "description": "Once a king who burned his world; his ambition and curse endure eternally."
+  },
+  {
+    "_id": "tulAruhh",
+    "name": "Tulas Shorn",
+    "traits": ["soletaken", "undead", "sorrowful"],
+    "warren": "Tellann",
+    "powerLevel": 88,
+    "agility": 68,
+    "intelligence": 82,
+    "description": "Soletaken Eleint, chained to grief and ghostly duty."
+  },
+  {
+    "_id": "moranthGold",
+    "name": "Moranth Gold Commander",
+    "traits": ["strategist", "mysterious", "disciplined"],
+    "warren": "None",
+    "powerLevel": 75,
+    "agility": 68,
+    "intelligence": 85,
+    "description": "Commanders of the secretive Moranth legions — deadly and enigmatic."
+  },
+  {
+    "_id": "coltaine",
+    "name": "Coltaine",
+    "traits": ["tactical genius", "unyielding", "martyr"],
+    "warren": "None",
+    "powerLevel": 83,
+    "agility": 70,
+    "intelligence": 95,
+    "description": "The Chain of Dogs' leader, hero of a doomed march and a symbol of sacrifice."
+  },
+  {
+    "_id": "lostaraYil",
+    "name": "Lostara Yil",
+    "traits": ["duelist", "honor-bound", "devoted"],
+    "warren": "D’rek (devotee)",
+    "powerLevel": 73,
+    "agility": 80,
+    "intelligence": 75,
+    "description": "Claw of the Queen and Shield of D’rek, blade and belief entwined."
+  },
+  {
+    "_id": "shadowHound",
+    "name": "Shadow Hound (Rashan)",
+    "traits": ["feral", "deadly", "loyal"],
+    "warren": "Shadow",
+    "powerLevel": 85,
+    "agility": 90,
+    "intelligence": 40,
+    "description": "A primordial predator roaming the Shadow Realm — as loyal as it is lethal."
+  },
+  {
+    "_id": "toblakaiChampion",
+    "name": "Toblakai Champion",
+    "traits": ["berserker", "Teblor", "unstoppable"],
+    "warren": "None",
+    "powerLevel": 88,
+    "agility": 75,
+    "intelligence": 50,
+    "description": "An unnamed warrior of the Toblakai tribes, echo of the Karsa legacy."
+  },
+  {
+    "_id": "bottle",
+    "name": "Bottle",
+    "traits": ["weird", "warren-weaver", "lucky"],
+    "warren": "Multiple minor",
+    "powerLevel": 76,
+    "agility": 60,
+    "intelligence": 86,
+    "description": "Bonehunter mage with odd magic, secret knowledge, and uncanny luck."
+  },
+  {
+    "_id": "sin",
+    "name": "Sin",
+    "traits": ["dangerous", "child", "chaotic"],
+    "warren": "Burned Chaos",
+    "powerLevel": 84,
+    "agility": 60,
+    "intelligence": 70,
+    "description": "A young girl with terrifying magic and unsettling calm."
+  },
+  {
+    "_id": "kartheronCrust",
+    "name": "Kartheron Crust",
+    "traits": ["naval commander", "loyal", "veteran"],
+    "warren": "None",
+    "powerLevel": 70,
+    "agility": 65,
+    "intelligence": 84,
+    "description": "Imperial admiral, steadfast under fire and master of the seas."
+  },
+  {
+    "_id": "redmask",
+    "name": "Redmask",
+    "traits": ["tactician", "exile", "ruthless"],
+    "warren": "None",
+    "powerLevel": 79,
+    "agility": 70,
+    "intelligence": 88,
+    "description": "Disgraced Letherii commander turned War Leader of the Awl — brutal and brilliant."
+  },
+  {
+    "_id": "janath",
+    "name": "Janath",
+    "traits": ["scribe", "brave", "Letherii"],
+    "warren": "None",
+    "powerLevel": 52,
+    "agility": 50,
+    "intelligence": 81,
+    "description": "Letherii rebel and lover of Tehol, quiet but crucial to revolution."
+  },
+  {
+    "_id": "orlong",
+    "name": "Orlong",
+    "traits": ["blunt", "loyal", "humorous"],
+    "warren": "None",
+    "powerLevel": 68,
+    "agility": 60,
+    "intelligence": 66,
+    "description": "Faithful shield and comic relief to Tavore's grim determination."
+  },
+  {
+    "_id": "crokusYounghand",
+    "name": "Crokus Younghand",
+    "traits": ["thief", "lucky", "youthful"],
+    "warren": "Shadow (later)",
+    "powerLevel": 64,
+    "agility": 80,
+    "intelligence": 70,
+    "description": "Darujhistan thief drawn into the hands of gods — unwitting pawn of fate."
+  },
+  {
+    "_id": "aptorian",
+    "name": "Aptorian Demon",
+    "traits": ["shadow", "summoned", "ravenous"],
+    "warren": "Shadow",
+    "powerLevel": 87,
+    "agility": 85,
+    "intelligence": 45,
+    "description": "Ferocious demon from Meanas, bound to protect Crokus and Shadow’s will."
+  },
+  {
+    "_id": "hood",
+    "name": "Hood",
+    "traits": ["death", "stoic", "inevitable"],
+    "warren": "Hood's Path",
+    "powerLevel": 99,
+    "agility": 68,
+    "intelligence": 92,
+    "description": "The Lord of Death, bound by honor and unflinching in judgment."
+  },
+  {
+    "_id": "crippledGod",
+    "name": "The Crippled God",
+    "traits": ["chained", "vengeful", "corrupted"],
+    "warren": "Chaos",
+    "powerLevel": 100,
+    "agility": 50,
+    "intelligence": 96,
+    "description": "A shattered god of another realm, chained in pain and reshaping the world in madness."
+  }
+]

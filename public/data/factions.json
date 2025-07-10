@@ -1,0 +1,178 @@
+[
+  {
+    "id": "malazan-empire",
+    "name": "Malazan Empire",
+    "type": "Empire",
+    "status": "Active",
+    "origin": "Malaz Island",
+    "description": "The dominant imperial power, founded by Kellanved and Dancer. Known for its military prowess and expansionist policies.",
+    "affiliations": ["14th Army", "Claw", "Imperial Navy"],
+    "enemies": ["Whirlwind", "Pannion Domin", "Letherii Empire"],
+    "icon": "🛡️"
+  },
+  {
+    "id": "bridgeburners",
+    "name": "Bridgeburners",
+    "type": "Military Unit",
+    "status": "Disbanded",
+    "origin": "Malazan Empire",
+    "description": "Elite military unit of the Malazan Empire, known for their loyalty and effectiveness in the most dangerous missions.",
+    "affiliations": ["Malazan Empire", "14th Army"],
+    "enemies": ["Whirlwind", "Pannion Domin"],
+    "icon": "⚔️"
+  },
+  {
+    "id": "tiste-andii",
+    "name": "Tiste Andii",
+    "type": "Race",
+    "status": "Active",
+    "origin": "Kurald Galain",
+    "description": "Ancient race of dark-skinned beings with powerful magic, led by Anomander Rake.",
+    "affiliations": ["Moon's Spawn", "Anomander Rake"],
+    "enemies": ["Tiste Liosan", "Pannion Domin"],
+    "icon": "🌙"
+  },
+  {
+    "id": "tiste-edur",
+    "name": "Tiste Edur",
+    "type": "Race",
+    "status": "Active",
+    "origin": "Lether",
+    "description": "Grey-skinned race that conquered the Letherii Empire, wielding shadow magic.",
+    "affiliations": ["Letherii Empire", "Rhulad Sengar"],
+    "enemies": ["Tiste Andii", "Malazan Empire"],
+    "icon": "🌫️"
+  },
+  {
+    "id": "tiste-liosan",
+    "name": "Tiste Liosan",
+    "type": "Race",
+    "status": "Active",
+    "origin": "Kurald Thyrllan",
+    "description": "Light-wielding cousins of the Tiste Andii, dwelling in the realm of Light.",
+    "affiliations": ["Kurald Thyrllan"],
+    "enemies": ["Tiste Andii", "Tiste Edur"],
+    "icon": "☀️"
+  },
+  {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "type": "Rebellion",
+    "status": "Defeated",
+    "origin": "Seven Cities",
+    "description": "Massive rebellion against Malazan rule in Seven Cities, led by Sha'ik and fueled by the Whirlwind Goddess.",
+    "affiliations": ["Sha'ik", "Whirlwind Goddess", "Raraku"],
+    "enemies": ["Malazan Empire", "14th Army"],
+    "icon": "🌪️"
+  },
+  {
+    "id": "pannion-domin",
+    "name": "Pannion Domin",
+    "type": "Theocracy",
+    "status": "Destroyed",
+    "origin": "Genabackis",
+    "description": "Cannibalistic theocracy that swept across Genabackis, led by the Pannion Seer.",
+    "affiliations": ["Pannion Seer", "K'Chain Che'Malle"],
+    "enemies": ["Malazan Empire", "Tiste Andii", "Daru"],
+    "icon": "💀"
+  },
+  {
+    "id": "seguleh",
+    "name": "Seguleh",
+    "type": "Warrior Society",
+    "status": "Active",
+    "origin": "Seguleh Island",
+    "description": "Warrior society obsessed with martial perfection, ranking themselves by combat prowess.",
+    "affiliations": ["First", "Second"],
+    "enemies": ["None (Neutral)"],
+    "icon": "🥋"
+  },
+  {
+    "id": "crimson-guard",
+    "name": "Crimson Guard",
+    "type": "Mercenary Company",
+    "status": "Active",
+    "origin": "Quon Tali",
+    "description": "Elite mercenary company bound by the Vow, sworn enemies of the Malazan Empire.",
+    "affiliations": ["K'azz D'Avore", "Avowed"],
+    "enemies": ["Malazan Empire", "Kellanved"],
+    "icon": "🔴"
+  },
+  {
+    "id": "jaghut",
+    "name": "Jaghut",
+    "type": "Race",
+    "status": "Nearly Extinct",
+    "origin": "Ancient",
+    "description": "Ancient race of ice-wielding beings, mostly solitary and philosophical in nature.",
+    "affiliations": ["Gothos", "Icarium"],
+    "enemies": ["T'lan Imass", "Forkrul Assail"],
+    "icon": "❄️"
+  },
+  {
+    "id": "tlan-imass",
+    "name": "T'lan Imass",
+    "type": "Undead Army",
+    "status": "Active",
+    "origin": "Ancient",
+    "description": "Undead army of the Imass people, bound by ritual to hunt the Jaghut for eternity.",
+    "affiliations": ["Tool", "Logros T'lan Imass"],
+    "enemies": ["Jaghut", "Forkrul Assail"],
+    "icon": "💀"
+  },
+  {
+    "id": "letherii-empire",
+    "name": "Letherii Empire",
+    "type": "Empire",
+    "status": "Conquered",
+    "origin": "Lether",
+    "description": "Merchant empire focused on acquisition and debt, conquered by the Tiste Edur.",
+    "affiliations": ["Tehol Beddict", "Bugg"],
+    "enemies": ["Tiste Edur", "Malazan Empire"],
+    "icon": "💰"
+  },
+  {
+    "id": "kchain-chemalle",
+    "name": "K'Chain Che'Malle",
+    "type": "Race",
+    "status": "Nearly Extinct",
+    "origin": "Ancient",
+    "description": "Ancient race of intelligent dinosaur-like beings with advanced technology.",
+    "affiliations": ["Matron", "Ve'Gath"],
+    "enemies": ["Forkrul Assail", "Short-Tails"],
+    "icon": "🦕"
+  },
+  {
+    "id": "forkrul-assail",
+    "name": "Forkrul Assail",
+    "type": "Race",
+    "status": "Nearly Extinct",
+    "origin": "Ancient",
+    "description": "Ancient race obsessed with justice and purity, seeking to cleanse the world.",
+    "affiliations": ["Akhrast Korvalain", "Pure"],
+    "enemies": ["All other races", "Chaos"],
+    "icon": "⚖️"
+  },
+  {
+    "id": "claw",
+    "name": "Claw",
+    "type": "Intelligence Agency",
+    "status": "Active",
+    "origin": "Malazan Empire",
+    "description": "Elite intelligence and assassination organization serving the Malazan Empire.",
+    "affiliations": ["Malazan Empire", "Empress Laseen"],
+    "enemies": ["Crimson Guard", "Whirlwind"],
+    "icon": "🗡️"
+  },
+  {
+    "id": "moranth",
+    "name": "Moranth",
+    "type": "Alliance",
+    "status": "Active",
+    "origin": "Genabackis",
+    "description": "Insectoid humanoid species allied with the Malazan Empire, known for their alchemical weapons.",
+    "affiliations": ["Malazan Empire", "Blue Moranth"],
+    "enemies": ["Pannion Domin"],
+    "icon": "🐛"
+  }
+]

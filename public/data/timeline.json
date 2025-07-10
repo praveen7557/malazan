@@ -1,0 +1,182 @@
+[
+  {
+    "id": "convergence-darujhistan",
+    "title": "Convergence at Darujhistan",
+    "year": 1163,
+    "book": "Gardens of the Moon",
+    "location": "Darujhistan, Genabackis",
+    "characters": ["Anomander Rake", "Sergeant Whiskeyjack", "Sorry", "Tattersail", "Paran", "Lorn"],
+    "description": "The Malazan Empire's attempt to conquer the Free City of Darujhistan leads to a massive convergence of powers, involving the Tiste Andii, the Bridgeburners, and various ascendants."
+  },
+  {
+    "id": "whirlwind-rebellion-begins",
+    "title": "The Whirlwind Rebellion Begins",
+    "year": 1164,
+    "book": "Deadhouse Gates",
+    "location": "Seven Cities",
+    "characters": ["Sha'ik", "Felisin", "Heboric", "Baudin", "Duiker", "Coltaine"],
+    "description": "The apocalyptic uprising begins in Seven Cities as Sha'ik proclaims the Whirlwind, leading to widespread rebellion against Malazan rule."
+  },
+  {
+    "id": "chain-of-dogs",
+    "title": "The Chain of Dogs",
+    "year": 1164,
+    "book": "Deadhouse Gates",
+    "location": "Seven Cities",
+    "characters": ["Coltaine", "Duiker", "Bult", "Lull", "List"],
+    "description": "Coltaine's legendary march to save 50,000 refugees across the hostile Seven Cities subcontinent, culminating in the Fall of Coltaine at Aren."
+  },
+  {
+    "id": "pannion-war-begins",
+    "title": "The Pannion War Begins",
+    "year": 1164,
+    "book": "Memories of Ice",
+    "location": "Genabackis",
+    "characters": ["Dujek", "Whiskeyjack", "Anomander Rake", "Caladan Brood", "Kruppe"],
+    "description": "The Malazan forces ally with former enemies to combat the cannibalistic Pannion Domin that threatens to consume all of Genabackis."
+  },
+  {
+    "id": "siege-capustan",
+    "title": "The Siege of Capustan",
+    "year": 1164,
+    "book": "Memories of Ice",
+    "location": "Capustan, Genabackis",
+    "characters": ["Itkovian", "Gruntle", "Stonny Menackis", "Harllo", "Keruli"],
+    "description": "The Grey Swords defend the holy city of Capustan against the Pannion Domin's cannibalistic hordes in a desperate siege."
+  },
+  {
+    "id": "coral-convergence",
+    "title": "Convergence at Coral",
+    "year": 1164,
+    "book": "Memories of Ice",
+    "location": "Coral, Genabackis",
+    "characters": ["Anomander Rake", "Whiskeyjack", "Kallor", "Silverfox", "Tool"],
+    "description": "The final battle against the Pannion Domin at Coral sees the death of Whiskeyjack and the revelation of the Crippled God's influence."
+  },
+  {
+    "id": "raraku-convergence",
+    "title": "Convergence at Raraku",
+    "year": 1165,
+    "book": "House of Chains",
+    "location": "Raraku, Seven Cities",
+    "characters": ["Karsa Orlong", "Sha'ik Reborn", "Felisin Younger", "Tavore", "Gamet"],
+    "description": "The Whirlwind Rebellion reaches its climax at the holy desert of Raraku, where the 14th Army faces Sha'ik Reborn in a decisive battle."
+  },
+  {
+    "id": "edur-conquest-lether",
+    "title": "Tiste Edur Conquest of Lether",
+    "year": 1161,
+    "book": "Midnight Tides",
+    "location": "Letherii Empire",
+    "characters": ["Rhulad Sengar", "Trull Sengar", "Fear Sengar", "Tehol Beddict", "Bugg"],
+    "description": "The Tiste Edur, led by Emperor Rhulad Sengar, conquer the merchant empire of Lether, fundamentally changing both civilizations."
+  },
+  {
+    "id": "bonehunters-malaz-city",
+    "title": "The Bonehunters' Last Stand",
+    "year": 1165,
+    "book": "The Bonehunters",
+    "location": "Malaz City",
+    "characters": ["Tavore", "Kalam", "Quick Ben", "Fiddler", "Bottle"],
+    "description": "The 14th Army, now called the Bonehunters, faces betrayal and attempts to destroy them at the very heart of the Malazan Empire."
+  },
+  {
+    "id": "letherii-liberation",
+    "title": "The Liberation of Lether",
+    "year": 1166,
+    "book": "Reaper's Gale",
+    "location": "Letherii Empire",
+    "characters": ["Icarium", "Karsa Orlong", "Rhulad Sengar", "Trull Sengar", "Tehol Beddict"],
+    "description": "The Bonehunters arrive in Lether to face the mad Emperor Rhulad Sengar, while Tehol Beddict's economic revolution transforms the empire."
+  },
+  {
+    "id": "toll-the-hounds",
+    "title": "The Hounds of Shadow Unleashed",
+    "year": 1166,
+    "book": "Toll the Hounds",
+    "location": "Darujhistan, Genabackis",
+    "characters": ["Anomander Rake", "Dassem Ultor", "Traveller", "Karsa Orlong", "Kruppe"],
+    "description": "Ancient powers converge on Darujhistan as the Hounds of Shadow are unleashed, leading to the final fate of Anomander Rake."
+  },
+  {
+    "id": "dust-of-dreams-wastelands",
+    "title": "March into the Wastelands",
+    "year": 1167,
+    "book": "Dust of Dreams",
+    "location": "Letherii Wastelands",
+    "characters": ["Tavore", "Fiddler", "Bottle", "Gesler", "Stormy"],
+    "description": "The Bonehunters begin their seemingly impossible march into the eastern wastelands, pursuing a destiny only Tavore understands."
+  },
+  {
+    "id": "kchain-chemalle-awakening",
+    "title": "The K'Chain Che'Malle Awakening",
+    "year": 1167,
+    "book": "Dust of Dreams",
+    "location": "Ampelas Rooted",
+    "characters": ["Kalyth", "Gunth Mach", "Sag'Churok", "Gu'Rull"],
+    "description": "The ancient K'Chain Che'Malle stir from their long slumber, seeking to reclaim their place in the world under the guidance of their new Destriant."
+  },
+  {
+    "id": "crippled-god-final",
+    "title": "The Crippled God's Liberation",
+    "year": 1167,
+    "book": "The Crippled God",
+    "location": "Kolanse",
+    "characters": ["Tavore", "Ganoes Paran", "Cotillion", "Shadowthrone", "Icarium"],
+    "description": "The final convergence at the Spire of Kolanse determines the fate of the Crippled God and the destiny of the Malazan Empire."
+  },
+  {
+    "id": "kellanved-dancer-rise",
+    "title": "Rise of Kellanved and Dancer",
+    "year": 1154,
+    "book": "Night of Knives",
+    "location": "Malaz Island",
+    "characters": ["Kellanved", "Dancer", "Surly", "Dassem Ultor", "Tayschrenn"],
+    "description": "The future Emperor Kellanved and his companion Dancer begin their rise to power on the small island of Malaz."
+  },
+  {
+    "id": "mock-hold-tragedy",
+    "title": "The Tragedy of Mock's Hold",
+    "year": 1154,
+    "book": "Night of Knives",
+    "location": "Malaz Island",
+    "characters": ["Kiska", "Temper", "Kellanved", "Dancer", "Cotillion"],
+    "description": "The night that changed everything, as witnessed by the young Kiska and the veteran Temper, marking the transformation of Kellanved and Dancer."
+  },
+  {
+    "id": "crimson-guard-vow",
+    "title": "The Crimson Guard's Vow",
+    "year": 1156,
+    "book": "Return of the Crimson Guard",
+    "location": "Quon Tali",
+    "characters": ["K'azz D'Avore", "Skinner", "Cowl", "Shimmer", "Blues"],
+    "description": "The mercenary company known as the Crimson Guard takes their legendary Vow, binding them in eternal opposition to the Malazan Empire."
+  },
+  {
+    "id": "genabackis-campaign-begins",
+    "title": "The Genabackis Campaign Begins",
+    "year": 1158,
+    "book": "Gardens of the Moon",
+    "location": "Genabackis",
+    "characters": ["Dujek", "Whiskeyjack", "Tayschrenn", "Hairlock", "Tattersail"],
+    "description": "The Malazan Empire launches its ambitious campaign to conquer the continent of Genabackis, beginning decades of warfare."
+  },
+  {
+    "id": "pale-siege",
+    "title": "The Siege of Pale",
+    "year": 1161,
+    "book": "Gardens of the Moon",
+    "location": "Pale, Genabackis",
+    "characters": ["Tayschrenn", "Hairlock", "Tattersail", "Calot", "Anomander Rake"],
+    "description": "The disastrous siege where Anomander Rake and Moon's Spawn devastate the Malazan forces, leading to the near-destruction of the Bridgeburners."
+  },
+  {
+    "id": "aren-last-stand",
+    "title": "The Last Stand at Aren",
+    "year": 1164,
+    "book": "Deadhouse Gates",
+    "location": "Aren, Seven Cities",
+    "characters": ["Coltaine", "Duiker", "Bult", "Lull", "Pormqual"],
+    "description": "The tragic end of Coltaine's Chain of Dogs, where the Wickan Warleader and his forces make their final stand against overwhelming odds."
+  }
+]
