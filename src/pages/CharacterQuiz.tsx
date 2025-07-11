@@ -79,7 +79,17 @@ const CharacterQuiz: React.FC = () => {
     } else {
       // Quiz completed
       const topCharacterIds = calculateTopCharacters(newScores);
-      const topCharacters = getCharactersByIds(topCharacterIds, characters);
+      let topCharacters = getCharactersByIds(topCharacterIds, characters);
+
+      // Fallback: if no characters found, pick a random character
+      if (topCharacters.length === 0) {
+        console.warn(
+          'No matching characters found, selecting random character'
+        );
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        topCharacters = [characters[randomIndex]];
+      }
+      
       setResultCharacters(topCharacters);
       setIsCompleted(true);
     }

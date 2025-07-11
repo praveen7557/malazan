@@ -520,8 +520,8 @@
     "description": "Bonehunter mage with odd magic, secret knowledge, and uncanny luck."
   },
   {
-    "_id": "sin",
-    "name": "Sin",
+    "_id": "sinn",
+    "name": "Sinn",
     "traits": ["dangerous", "child", "chaotic"],
     "warren": "Burned Chaos",
     "powerLevel": 84,
@@ -608,5 +608,105 @@
     "agility": 50,
     "intelligence": 96,
     "description": "A shattered god of another realm, chained in pain and reshaping the world in madness."
+  },
+  {
+    "_id": "bugg",
+    "name": "Bugg",
+    "traits": ["servant", "ancient", "humble"],
+    "warren": "Elder",
+    "powerLevel": 95,
+    "agility": 50,
+    "intelligence": 98,
+    "description": "Humble manservant to Tehol, hiding his true identity as Mael, Elder God of the Seas."
+  },
+  {
+    "_id": "fearSengar",
+    "name": "Fear Sengar",
+    "traits": ["noble", "conflicted", "Tiste Edur"],
+    "warren": "Kurald Emurlahn",
+    "powerLevel": 82,
+    "agility": 75,
+    "intelligence": 80,
+    "description": "Tiste Edur warrior and brother to Trull, torn between loyalty and conscience."
+  },
+  {
+    "_id": "hedge",
+    "name": "Hedge",
+    "traits": ["sapper", "loyal", "explosive"],
+    "warren": "None",
+    "powerLevel": 68,
+    "agility": 65,
+    "intelligence": 75,
+    "description": "Bridgeburner sapper and loyal friend, master of munitions and mayhem."
+  },
+  {
+    "_id": "mallet",
+    "name": "Mallet",
+    "traits": ["healer", "veteran", "wise"],
+    "warren": "Denul",
+    "powerLevel": 72,
+    "agility": 55,
+    "intelligence": 85,
+    "description": "Bridgeburner healer and medic, keeper of wounded souls and bodies."
+  },
+  {
+    "_id": "onosToolan",
+    "name": "Onos T'oolan",
+    "traits": ["undead", "stoic", "warrior sage"],
+    "warren": "Tellann",
+    "powerLevel": 88,
+    "agility": 60,
+    "intelligence": 84,
+    "description": "First Sword of the Imass, bound to eternal war but seeking peace through honor."
+  },
+  {
+    "_id": "poliel",
+    "name": "Poliel",
+    "traits": ["plague", "bitter", "disease"],
+    "warren": "Chaos/Disease",
+    "powerLevel": 93,
+    "agility": 40,
+    "intelligence": 88,
+    "description": "Goddess of plague and disease, bitter and vengeful deity of suffering."
+  },
+  {
+    "_id": "ryllandaras",
+    "name": "Ryllandaras",
+    "traits": ["shapeshifter", "ancient", "wild"],
+    "warren": "Tellann",
+    "powerLevel": 89,
+    "agility": 85,
+    "intelligence": 78,
+    "description": "Ancient shapeshifter and D'ivers, master of forms and primal fury."
+  },
+  {
+    "_id": "serenPedac",
+    "name": "Seren Pedac",
+    "traits": ["acquitor", "determined", "Letherii"],
+    "warren": "None",
+    "powerLevel": 65,
+    "agility": 68,
+    "intelligence": 82,
+    "description": "Letherii Acquitor, caught between empires and seeking her own path."
+  },
+  {
+    "_id": "silchasRuin",
+    "name": "Silchas Ruin",
+    "traits": ["Tiste Andii", "bitter", "powerful"],
+    "warren": "Kurald Galain",
+    "powerLevel": 94,
+    "agility": 85,
+    "intelligence": 88,
+    "description": "Brother to Anomander Rake, the White Crow, bitter and powerful Tiste Andii."
+  },
+  {
+    "_id": "whiskeyjack",
+    "name": "Whiskeyjack",
+    "traits": ["leader", "loyal", "veteran"],
+    "warren": "None",
+    "powerLevel": 78,
+    "agility": 70,
+    "intelligence": 88,
+    "description": "Sergeant of the Bridgeburners, beloved leader and tactical genius."
   }
 ]
